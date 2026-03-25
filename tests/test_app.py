@@ -139,3 +139,4 @@ class TestRoot:
         # Assert
         assert response.status_code == 307
         assert "/static/index.html" in response.headers["location"]
+
